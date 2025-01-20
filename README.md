@@ -62,7 +62,7 @@ No IntelliJ, configure o arquivo `application.properties` para utilizar as vari√
 
 ```properties
 spring.application.name=api
-spring.datasource.url=jdbc:postgresql://${DB_HOST}/${DB_NAME}
+spring.datasource.url=dbc:mysql://${DB_HOST}/${DB_NAME}
 spring.datasource.username=${DB_USER}
 spring.datasource.password=${DB_PASSWORD}
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
